@@ -5,10 +5,6 @@ import time
 import sklearn.metrics as metrics
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
-
-import sklearn
-from sklearn import neighbors
-import csv
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.linear_model import Ridge
 from sklearn.pipeline import make_pipeline
